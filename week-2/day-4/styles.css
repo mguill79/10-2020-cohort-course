@@ -1,0 +1,57 @@
+h2{
+    color: blue; 
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+@keyframes frogs {
+    from {transform: translateX(0px);}
+    to {transform: translateX(-1880px);}
+}
+
+#imageslider{
+    animation-name: frogs;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+#window{
+    background-color: white;
+    width: 390px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+#window2{
+    background-color: white;
+    width: 466px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+#imageslider{
+    display: flex;
+    
+}
+
+#imageslider2{
+    display: flex;
+}
+
+h1{
+    color: darkgreen;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+    text-align: center;
+    color: black;
+    padding: 5px;
+
+}    
+        
